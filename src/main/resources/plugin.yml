@@ -1,0 +1,12 @@
+name: SimpleWhitelist
+version: '1.0.0'
+main: net.oxisi.simplewhitelist.SimpleWhitelist
+api-version: '1.19'
+
+commands:
+  whitelist:
+    permission:
+      simplewhitelist.command.whitelist
+    description: Adds or removes someone to whitelist.
+    aliases: [ wl ]
+    usage: "/wl <player-name> <true|false>"

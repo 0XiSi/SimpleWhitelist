@@ -1,0 +1,3 @@
+# The file to add or remove someone from whitelist
+# use <player-name>: <true|false>
+whitelisted:
